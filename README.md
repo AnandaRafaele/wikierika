@@ -1,0 +1,2 @@
+# wikierika
+Just for fun
