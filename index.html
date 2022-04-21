@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WikiÉrika | Início</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:ital,wght@0,900;1,900&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quando&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="./javascript.js"></script>
+  </head>
+  <body>
+    <header>
+      <div id="site-info">
+        <img src="./images/world.png" />
+        <div>
+          <h1>WikiÉrika</h1>
+          <p>Seu site de esclarecimento</p>
+        </div>
+      </div>
+      <div id="button-actions">
+        <a href="#" alt="pix">Fazer um pix</a>
+        <button>Se inscrever</button>
+      </div>
+    </header>
+    <section>
+      <h1>Como posso te ajudar?</h1>
+      <textarea
+        id="textarea"
+        placeholder="Digite aqui a sua pergunta"
+      ></textarea>
+      <button
+        id="ask"
+        onclick="makeQuestion(document.getElementById('textarea').value)"
+      >
+        Perguntar
+      </button>
+    </section>
+    <footer>
+      <p>
+        Copyright &copy; by WikiÉrika &hearts;. Todos os direitos reservados
+      </p>
+    </footer>
+  </body>
+</html>
