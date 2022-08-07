@@ -27,6 +27,7 @@ const answer = [
   "Não espere pela aprovação dos outros",
   "Bebe uma aguinha e relaxa.",
   "Esquece isso! Sabia que treinar os superiores ajuda na postura e aumenta a força melhorando o desempenho no treino de inferiores?",
+  "É como diz a Pitty: Não deixe nada pra depois, não deixe o tempo passar. Não deixe nada pra semana que vem, porque semana que vem pode nem chegar",
 ];
 
 function makeQuestion(question) {
